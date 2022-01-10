@@ -1,3 +1,5 @@
+**Table of Contents**
+
 - [**Overview**](#overview)
 - [**Codebase**](#codebase)
   - [Machine specifications](#machine-specifications)
@@ -34,7 +36,7 @@ Implementation of a working, simple, monocular visual odometry (VO) pipeline wit
 
 ### Machine specifications
 
-- CPU: AMD Ryzen 7 5800H, 3.2 GHz, 16 logical process
+- CPU: AMD Ryzen 7 5800H, 3.2 GHz, 16 logical processors
 - RAM: 16GB
 
 ### Dev Environment
@@ -70,16 +72,17 @@ Visual-Odometry-Pipeline/
 ├── ...
 ```
 
-
 ## Demo
 
-| Test sequences      | Demo                                                         | Video                                                        |
-| ------------------- | ----------------------------------------------- | ------------------------------------------------------------ |
-| KITTI seq05         | ![epfl_parking](./gifs/kitti.gif) | [[link](https://www.youtube.com/watch?v=ByywzaIwTSM&list=PLisWEer2ynw1Ws1_km6y-xXDAIyvJ9weM&index=1)] |
-| malaga              | ![epfl_parking](./gifs/malaga.gif) | [[link](https://www.youtube.com/watch?v=l-Jklm77tNg&list=PLisWEer2ynw1Ws1_km6y-xXDAIyvJ9weM&index=2)] |
-| parking             | ![epfl_parking](./gifs/parking.gif) | [[link](https://www.youtube.com/watch?v=Xut0iuFSy8o&list=PLisWEer2ynw1Ws1_km6y-xXDAIyvJ9weM&index=3)] |
-| epfl_parking        | ![epfl_parking](./gifs/epfl_parking.gif) | [[link](https://www.youtube.com/watch?v=eWNpX07L4_A&list=PLisWEer2ynw1Ws1_km6y-xXDAIyvJ9weM&index=4)] |
-| lausanne_center_nav | ![epfl_parking](./gifs/lausanne_center_nav.gif) | [[link](https://www.youtube.com/watch?v=qSgeN7ElPik&list=PLisWEer2ynw1Ws1_km6y-xXDAIyvJ9weM&index=5)] |
+> **[YouTube playlist - VAMR 2021Fall Mini Project - VO Demo - J. Zheng & Y. He](https://youtube.com/playlist?list=PLisWEer2ynw1Ws1_km6y-xXDAIyvJ9weM)**
+
+| Test sequences                                               | Demo                                            |
+| ------------------------------------------------------------ | ----------------------------------------------- |
+| **KITTI seq05** [[video](https://www.youtube.com/watch?v=ByywzaIwTSM&list=PLisWEer2ynw1Ws1_km6y-xXDAIyvJ9weM&index=1)] [[data (1.4GB)](http://rpg.ifi.uzh.ch/docs/teaching/2021/kitti05.zip)] | ![epfl_parking](./gifs/kitti.gif)               |
+| **malaga seq07** [[video](https://www.youtube.com/watch?v=l-Jklm77tNg&list=PLisWEer2ynw1Ws1_km6y-xXDAIyvJ9weM&index=2)] [[data (4.4GB)](http://rpg.ifi.uzh.ch/docs/teaching/2021/malaga-urban-dataset-extract-07.zip)] | ![epfl_parking](./gifs/malaga.gif)              |
+| **parking** [[video](https://www.youtube.com/watch?v=Xut0iuFSy8o&list=PLisWEer2ynw1Ws1_km6y-xXDAIyvJ9weM&index=3)] [[data (208 MB)](http://rpg.ifi.uzh.ch/docs/teaching/2021/parking.zip)] | ![epfl_parking](./gifs/parking.gif)             |
+| **epfl_parking** [[video](https://www.youtube.com/watch?v=eWNpX07L4_A&list=PLisWEer2ynw1Ws1_km6y-xXDAIyvJ9weM&index=4)] [[data (675 MB)](https://drive.google.com/file/d/1dWRwkZaB_mY21HzAGXzcXKBwg_2cBn5c/view)] | ![epfl_parking](./gifs/epfl_parking.gif)        |
+| **lausanne_center_nav** [[video](https://www.youtube.com/watch?v=qSgeN7ElPik&list=PLisWEer2ynw1Ws1_km6y-xXDAIyvJ9weM&index=5)] [[data (58.8 MB)](https://drive.google.com/file/d/1e1VCh19S4wyayX6s4J-8J6ad5YZx-B9a/view?usp=sharing)] | ![epfl_parking](./gifs/lausanne_center_nav.gif) |
 
 
 ## Data
